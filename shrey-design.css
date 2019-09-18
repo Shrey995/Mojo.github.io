@@ -1,0 +1,112 @@
+body {
+  overflow-x:hidden;
+font-family: Script;
+}
+
+/* 1 */
+.sticky
+{
+  position: sticky;
+  height: 22vw;
+  top: 0;
+  color: #ffffff
+}
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* 1 */
+.container {
+  position: absolute;
+  top: 10%;
+  left:92.5%;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 2vw;
+  height: 0.3vw;
+  background-color: #b0c4de;
+  margin: 0.5vw;
+  transition: 0.2s;
+}
+
+.change1 {
+  -webkit-transform: rotate(-45deg) translate(-1.2vw, 0.01vw);
+  transform: rotate(-45deg) translate(-1.2vw, 0.01vw);
+  background-color: #818181;
+  
+}
+
+.change2 {
+  opacity: 0;
+}
+
+.change3 {
+  -webkit-transform: rotate(45deg) translate(-1.1vw, 0.01vw);
+  transform: rotate(45deg) translate(-1.1vw, 0.01vw);
+  background-color: #818181;
+}
+
+/* 1 */
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 29vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 70%;
+  background-color: rgba(166, 166,166,0.5);
+  overflow-x: hidden;
+  padding-top: 6vw;
+}
+
+.sidenav a {
+  padding: 1vw 1vw 1vw 4vw;
+  text-decoration: none;
+  font-size: 2.5vw;
+  color: rgb(128, 128, 128);
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 3.4vw;
+  font-size: 3.5vw;
+  margin-left: 5vw;
+}
+
+/* 1 */
+.col-sm-4,.col-sm-8 {
+ margin-top:7vw;
+ z-index: -1;
+}
+
+
+.row::after {
+   
+  clear: both;
+  display: inline-block;
+
+}
+
+/* 1 */
+p {
+ color: #b0c4de;  
+ font-family: times new roman;
+ font-size: 2vw; 
+padding :0vw 5vw;
+
+
+}
